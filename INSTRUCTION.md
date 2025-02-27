@@ -6,4 +6,4 @@ How to validate the changes:
 2. To verify that MySQL pods are scheduled on nodes labeled app=mysql:
     - kubectl get pods -n mysql -o wide 
 3. To verify that ToDo app pods are scheduled on nodes labeled app=todoapp:
-    - kubectl get pods -n mysql -o wide
+    - kubectl get pods -n todoapp -o wide
